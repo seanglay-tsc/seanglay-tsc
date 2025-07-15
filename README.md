@@ -1,12 +1,14 @@
-- 👋 Hi, I’m Seanglay
-- 👀 I’m interested in Computer Vision
-- 🌱 I’m currently learning X
-- 💞️ I’m looking to collaborate on any open source
-- 📫 How to reach me seanglay.sq@outlook.com
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: Chill Guy
+alias mkstart='minikube start --memory=2048 --cpus=2'
+alias lzg='lzg'
+alias lzd='lazydocker'
 
-<!---
-seanglay-tsc/seanglay-tsc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+alias reload='source ~/.bashrc'
+alias cls='clear'
+
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias di='docker images'
+
+
+alias mvnrun-dev='set -a && source example.env && set +a && mvn spring-boot:run -Pdev -Dspring-boot.run.profiles=dev'
+alias mvninstall-dev='set -a && source example.env && set +a && mvn clean install -Pdev'
