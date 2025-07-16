@@ -12,3 +12,6 @@ alias di='docker images'
 
 alias mvnrun-dev='set -a && source example.env && set +a && mvn spring-boot:run -Pdev -Dspring-boot.run.profiles=dev'
 alias mvninstall-dev='set -a && source example.env && set +a && mvn clean install -Pdev'
+
+
+Nuxt hater
